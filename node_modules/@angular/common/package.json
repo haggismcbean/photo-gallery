@@ -2,7 +2,7 @@
   "_args": [
     [
       "@angular/common@5.2.11",
-      "/www/HelloWorld"
+      "/www/photo-gallery"
     ]
   ],
   "_from": "@angular/common@5.2.11",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@angular/common/-/common-5.2.11.tgz",
   "_spec": "5.2.11",
-  "_where": "/www/HelloWorld",
+  "_where": "/www/photo-gallery",
   "author": {
     "name": "angular"
   },

@@ -2,6 +2,7 @@
 /www/photo-gallery/platforms/android/app/src/main/assets/app/shared/file-manager/file-manager.service.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/shared/file-manager/file.model.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/shared/photo/photo.model.js
+/www/photo-gallery/platforms/android/app/src/main/assets/app/shared/photo/photo.service.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/main.aot.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/main.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/app.module.js

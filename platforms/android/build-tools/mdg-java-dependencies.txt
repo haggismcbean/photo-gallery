@@ -15,4 +15,3 @@
 /www/photo-gallery/platforms/android/app/build/exploded-dependencies/13/classes.jar
 /www/photo-gallery/platforms/android/app/build/exploded-dependencies/5/classes.jar
 /www/photo-gallery/platforms/android/app/build/exploded-dependencies/14/classes.jar
-/www/photo-gallery/platforms/android/app/build/intermediates/classes/debug
