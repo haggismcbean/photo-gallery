@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/www/HelloWorld/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/www/photo-gallery/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/www/photo-gallery/platforms/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,103",
+                        "endColumns": "47,60",
+                        "endOffsets": "98,159"
+                    },
+                    "to": {
+                        "startLines": "587,598",
+                        "startColumns": "4,4",
+                        "startOffsets": "49528,50868",
+                        "endColumns": "47,60",
+                        "endOffsets": "49571,50924"
+                    }
+                },
                 {
                     "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a5ebee7f312c0faf856eb737c566068a/res/values/values.xml",
                     "from": {
@@ -21,58 +38,7 @@
                     }
                 },
                 {
-                    "source": "/www/HelloWorld/platforms/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,103",
-                        "endColumns": "47,60",
-                        "endOffsets": "98,159"
-                    },
-                    "to": {
-                        "startLines": "587,598",
-                        "startColumns": "4,4",
-                        "startOffsets": "49528,50868",
-                        "endColumns": "47,60",
-                        "endOffsets": "49571,50924"
-                    }
-                },
-                {
-                    "source": "/www/HelloWorld/platforms/android/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,5,2,3",
-                        "startColumns": "1,4,4,1",
-                        "startOffsets": "143,187,55,97",
-                        "endColumns": "40,41,44,45",
-                        "endOffsets": "182,224,95,141"
-                    },
-                    "to": {
-                        "startLines": "64,65,66,67",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "4297,4341,4383,4428",
-                        "endColumns": "43,41,44,48",
-                        "endOffsets": "4336,4378,4423,4472"
-                    }
-                },
-                {
-                    "source": "/www/HelloWorld/platforms/android/app/src/debug/res/values/colors.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "51",
-                        "endOffsets": "102"
-                    },
-                    "to": {
-                        "startLines": "60",
-                        "startColumns": "4",
-                        "startOffsets": "4024",
-                        "endColumns": "51",
-                        "endOffsets": "4071"
-                    }
-                },
-                {
-                    "source": "/www/HelloWorld/platforms/android/app/src/main/res/values/errorstyles.xml",
+                    "source": "/www/photo-gallery/platforms/android/app/src/main/res/values/errorstyles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -91,7 +57,41 @@
                     }
                 },
                 {
-                    "source": "/www/HelloWorld/platforms/android/app/src/main/res/values/styles.xml",
+                    "source": "/www/photo-gallery/platforms/android/app/src/debug/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "60",
+                        "startColumns": "4",
+                        "startOffsets": "4024",
+                        "endColumns": "51",
+                        "endOffsets": "4071"
+                    }
+                },
+                {
+                    "source": "/www/photo-gallery/platforms/android/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,5,2,3",
+                        "startColumns": "1,4,4,1",
+                        "startOffsets": "143,187,55,97",
+                        "endColumns": "40,41,44,45",
+                        "endOffsets": "182,224,95,141"
+                    },
+                    "to": {
+                        "startLines": "64,65,66,67",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4297,4341,4383,4428",
+                        "endColumns": "43,41,44,48",
+                        "endOffsets": "4336,4378,4423,4472"
+                    }
+                },
+                {
+                    "source": "/www/photo-gallery/platforms/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "31,22,18,4,42,35",
                         "startColumns": "4,4,4,4,4,4",

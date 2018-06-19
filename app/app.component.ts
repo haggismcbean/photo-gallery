@@ -1,12 +1,11 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "my-app",
-  template: `
-    <ActionBar title="My App" class="action-bar"></ActionBar>
-    <!-- Your UI components go here -->
-  `
+  selector: "pg-main",
+  templateUrl: "main/main-2.component.html"
 })
 export class AppComponent {
-  // Your TypeScript logic goes here
+  submit() {
+  	alert("hello world");
+  }
 }

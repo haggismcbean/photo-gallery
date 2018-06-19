@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/www/HelloWorld/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
+            "outputFile": "/www/photo-gallery/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ae74e898ee5b83cb332e9b2487eaeea5/res/values-lt/values-lt.xml",

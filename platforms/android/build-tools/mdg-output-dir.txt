@@ -1,1 +1,1 @@
-/www/HelloWorld/platforms/android/app/src/main/assets/metadata
+/www/photo-gallery/platforms/android/app/src/main/assets/metadata

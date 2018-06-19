@@ -1,1 +1,1 @@
-/www/HelloWorld/platforms/android/app/src/main/java
+/www/photo-gallery/platforms/android/app/src/main/java
