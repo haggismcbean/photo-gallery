@@ -20,7 +20,7 @@ export class AppComponent {
   	this.loadFromFile();
   }
 
-  picturePlaceholderPath = "/var/mobile/Containers/Data/Application/7BC42E59-1C73-4F2F-AF52-C1B1E30CD7C1/Documents/test.jpg";
+  picturePlaceholderPath = "~/images/placeholder-img.png";
  
   takePicture(): void {
     camera.takePicture({ 
@@ -40,9 +40,8 @@ export class AppComponent {
 	ImageSource.fromAsset(picture)
 		.then((img) => {
 			const folderDest = FileSystem.knownFolders.documents();
-			this.pathDest = FileSystem.path.join(folderDest.path, "test.jpg");
-			console.warn('PATH DEST: ', this.pathDest);
-			const saved = img.saveToFile(this.pathDest, "jpg");
+			const pathDest = FileSystem.path.join(folderDest.path, "test.png");
+			const saved = img.saveToFile(pathDest, "png");
 			if (saved) {
 				console.info("Image saved successfully!");
 			}
@@ -50,16 +49,15 @@ export class AppComponent {
   }
 
   loadFromFile() {
-  	// const folderDest = FileSystem.knownFolders.documents();
-	// this.pathDest = FileSystem.path.join(folderDest.path, "test.jpg");
-	// console.warn('path dest from loading: ', this.pathDest);
-  	// const picture = ImageSource.fromFile(this.pathDest)
-  	// console.warn(picture);
+  	const folderDest = FileSystem.knownFolders.documents();
+	const pathDest = FileSystem.path.join(folderDest.path, "test.png");
+  	const picture = ImageSource.fromFile(pathDest)
   		
-	// if (picture) {
+	if (picture) {
+		// console.warn(this.displayedPictureRef);
 		// const displayedPictureView = <Image>this.displayedPictureRef.nativeElement;
     	// displayedPictureView.imageSource = picture;
-		// this.picturePlaceholderPath = picture;
-	// }
+		this.picturePlaceholderPath = image;
+	}
   }
 }
