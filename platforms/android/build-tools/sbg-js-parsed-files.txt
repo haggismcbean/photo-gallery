@@ -72,6 +72,9 @@
 /www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/router/ns-route-reuse-strategy.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/router/router.module.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/router/page-router-outlet.js
+/www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/nativescript-permissions/permissions.js
+/www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/nativescript-camera/camera.common.js
+/www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/nativescript-camera/camera.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/globals/globals.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/globals/decorators.js
 /www/photo-gallery/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/border/border.js

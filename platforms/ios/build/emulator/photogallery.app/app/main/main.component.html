@@ -1,0 +1,11 @@
+<ActionBar title="Photo Gallery"></ActionBar>
+
+<StackLayout>
+	<Button [text]="pathDest"></Button>
+	<Image 
+		#displayedPicture
+		[src]="picturePlaceholderPath"
+	></Image>
+	<Button text="Take a nice Photo" (tap)="takePicture()"></Button>
+	<Button text="Upload from Gallery" (tap)="upload()"></Button>
+</StackLayout>

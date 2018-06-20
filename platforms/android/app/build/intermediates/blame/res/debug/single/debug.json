@@ -596,6 +596,10 @@
         "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ae74e898ee5b83cb332e9b2487eaeea5/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "/www/photo-gallery/platforms/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/6830961d50538cfc3761ee292ace725f/res/xml/provider_paths.xml"
+    },
+    {
         "merged": "/www/photo-gallery/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ae74e898ee5b83cb332e9b2487eaeea5/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -1580,12 +1584,12 @@
         "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ae74e898ee5b83cb332e9b2487eaeea5/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/www/photo-gallery/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ae74e898ee5b83cb332e9b2487eaeea5/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/www/photo-gallery/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ae74e898ee5b83cb332e9b2487eaeea5/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/www/photo-gallery/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/Users/harrybishop/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ae74e898ee5b83cb332e9b2487eaeea5/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/www/photo-gallery/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
