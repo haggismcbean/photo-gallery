@@ -1,1 +1,7 @@
-@import "nativescript-theme-core/css/core.light.css";
+GridLayout {
+	height: 80%;
+}
+
+GridLayout Image {
+	margin: 5px;
+}

@@ -1,57 +1,59 @@
-import { Component, ViewChild, ElementRef } from "@angular/core";
-import { Image } from "ui/image";
-import * as camera from "nativescript-camera";
+import {Component} from '@angular/core';
+ 
+import { NativeScriptUIListViewModule } from "nativescript-ui-listview/angular";
 
-
-import { PhotoService } from "./shared/photo/photo.service";
-import { FileManagerService } from "./shared/file-manager/file-manager.service";
-
-
+import * as ImageSource from 'image-source';
+import * as FileSystem from 'file-system';
+import * as camera from 'nativescript-camera';
+ 
 @Component({
-  selector: "pg-main",
-  providers: [PhotoService, FileManagerService],
-  templateUrl: "main/main.component.html"
+	selector: "pg-main",
+	styleUrls: ["app.css"],
+	templateUrl: "main/main.component.html"
 })
 export class AppComponent {
-	@ViewChild("displayedPicture") displayedPictureRef: ElementRef;
-	constructor(private photoService: PhotoService, private fileManagerService: FileManagerService) {
-		// this.photo = new Photo();
-		// this.file = new File();
+	groceryList = [];
+	picturePlaceholderPath = "~/images/placeholder-img.jpg";
+
+	ngOnInit() {
+		this.loadFromFile();
 	}
 
-	get picturePlaceholderPath(): string{
-		return "~/images/placeholder-img.jpg";
-	}
-
-	takePhoto(): void {
-		camera.requestPermissions()
-			.then(() => {
-				console.info("is available: ", camera.isAvailable());
-				
-				camera.takePicture({ 
-			    	width: 400, height: 400, keepAspectRatio: true
-			    })
-			    .then((picture) => {
-			    	console.info(picture);
-			    	console.info("displayed tha picture");
-			    	this.display(picture);
-			    })
-			    .catch((error) => {
-			    	console.error("Camera error! ", error);
-			    });
-			})
-			.catch((error) => {
-				console.log("Permissions error!", error)
-			})
+	takePicture(): void {
+		camera.takePicture({ 
+			width: 400, height: 100, keepAspectRatio: true, saveToGallery: true
+		})
+		.then((picture) => {
+			this.display(picture);
+			this.saveToFile(picture);
+		});
 	}
 
 	display(picture) {
-		const displayedPictureView = <Image>this.displayedPictureRef.nativeElement;
-    	displayedPictureView.imageSource = picture;
-    	console.info("displayed");
+		this.picturePlaceholderPath = picture;
 	}
 
-	upload() {
-		alert("upload");
+	saveToFile(picture) {
+		ImageSource.fromAsset(picture)
+			.then((img) => {
+				const folderDest = FileSystem.knownFolders.documents();
+				const pathDest = FileSystem.path.join(folderDest.path, "test.png");
+				const saved = img.saveToFile(pathDest, "png");
+				if (saved) {
+					console.info("Image saved successfully!");
+				}
+			});
+	}
+
+	loadFromFile() {
+		const folderDest = FileSystem.knownFolders.documents();
+		const pathDest = FileSystem.path.join(folderDest.path, "test.png");
+		console.log('path: ', folderDest.path);
+		folderDest.getEntities()
+			.then((entities)=> {
+				entities.forEach((entity) => {
+					this.picturePlaceholderPath = entity.path;
+				});
+			});
 	}
 }

@@ -6,7 +6,7 @@ import { AppComponent } from "./app.component";
 @NgModule({
   declarations: [AppComponent],
   bootstrap: [AppComponent],
-  imports: [NativeScriptModule],
+  imports: [NativeScriptModule, NativeScriptUIListViewModule],
   schemas: [NO_ERRORS_SCHEMA],
 })
 export class AppModule {}

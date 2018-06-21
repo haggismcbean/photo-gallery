@@ -1,11 +1,25 @@
 <ActionBar title="Photo Gallery"></ActionBar>
 
 <StackLayout>
-	<Button [text]="pathDest"></Button>
-	<Image 
-		#displayedPicture
-		[src]="picturePlaceholderPath"
-	></Image>
-	<Button text="Take a nice Photo" (tap)="takePicture()"></Button>
-	<Button text="Upload from Gallery" (tap)="upload()"></Button>
-</StackLayout>
+
+	<GridLayout columns="*,*,*" rows="*,*">
+		
+		<RadListView [items]="pictures">
+		  
+			<ng-template let-item="item">
+
+				<GridLayout columns="*,*,*" rows="*,*">
+
+					<Image [src]="item.path" row="$index"></Image>
+
+				</GridLayout>
+
+			</ng-template>
+		
+		</RadListView>
+	</GridLayout>
+
+<StackLayout>	
+
+<Button text="Take a nice Photo" (tap)="takePicture()"></Button>
+<Button text="Upload from Gallery" (tap)="upload()"></Button>
