@@ -1,5 +1,5 @@
 {
-	"time": "Thu Jun 21 2018 15:22:57 GMT+0200 (CEST)",
+	"time": "Thu Jun 21 2018 15:26:56 GMT+0200 (CEST)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
@@ -9,8 +9,8 @@
 	"appFilesHashes": {
 		"/www/photo-gallery/app/.DS_Store": "51437507a05ccb13979e397a19ffd763a37d5370",
 		"/www/photo-gallery/app/CODE_OF_CONDUCT.md": "3d921a467f0dc791385eb1d5db82d88e11d620e0",
-		"/www/photo-gallery/app/LICENSE": "335b9d849600792946ffbd01f3617100fbd6e107",
 		"/www/photo-gallery/app/README.md": "085244a5f4cd2f770feb3ab993bd6a4570189875",
+		"/www/photo-gallery/app/LICENSE": "335b9d849600792946ffbd01f3617100fbd6e107",
 		"/www/photo-gallery/app/app.component.js": "9f8357f3b02ed076964d0f4d03df366e8d8908c4",
 		"/www/photo-gallery/app/app.component.ts": "370d36a22ca2ea43461d6c7df24fc846664afbb1",
 		"/www/photo-gallery/app/app.css": "ee4eb2b32d57485c4ff4026d048666c8c9131bac",
@@ -27,8 +27,8 @@
 		"/www/photo-gallery/app/package.json": "ffbc3436cea71307c7e157ef7b9018aa8c1f5982",
 		"/www/photo-gallery/app/shared/image-manager/image-file.model.js": "e1ef876bd62846072603a75f29c8c9cab87daa84",
 		"/www/photo-gallery/app/shared/image-manager/image-file.model.ts": "8cb32bb707c0b6ba561fc1e1e7aaa5cc929957f6",
-		"/www/photo-gallery/app/shared/image-manager/image-manager.service.ts": "edff90ba74387c436540eec62e1b7d9fa4dc0a64",
-		"/www/photo-gallery/app/shared/image-manager/image-manager.service.js": "3a03a7b967c97917c631367ea51bfc569dbe3708",
+		"/www/photo-gallery/app/shared/image-manager/image-manager.service.js": "e2906c34a73a5546db02f329bac606f7ba3ca18c",
+		"/www/photo-gallery/app/shared/image-manager/image-manager.service.ts": "20204f37f99af4125c4541b90f7d2be5e0d2784a",
 		"/www/photo-gallery/app/images/apple.jpg": "c033a7a48829675b73f5d1db5360ffd53a737e01"
 	}
 }
