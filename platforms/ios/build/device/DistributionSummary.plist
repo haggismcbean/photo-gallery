@@ -35,6 +35,54 @@
 						<string>iOS Development</string>
 					</dict>
 					<key>name</key>
+					<string>FLAnimatedImage.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8T33YNRP9U</string>
+						<key>name</key>
+						<string>John Smit</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A8981E25CCBED82B9CBAB3D79025EF3CD1617AF9</string>
+						<key>dateExpires</key>
+						<string>20.06.19</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>NYTPhotoViewer.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8T33YNRP9U</string>
+						<key>name</key>
+						<string>John Smit</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A8981E25CCBED82B9CBAB3D79025EF3CD1617AF9</string>
+						<key>dateExpires</key>
+						<string>20.06.19</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
 					<string>NativeScript.framework</string>
 					<key>team</key>
 					<dict>

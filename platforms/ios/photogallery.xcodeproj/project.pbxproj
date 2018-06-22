@@ -5,19 +5,21 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
+		0843CC0D61F2445797E7F60C /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C57043520BA247A892522355 /* TNSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0F868971E3E440E8A30707F7 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36BD58F0650D4AE98800EF2B /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B4BF77CEB62445BAD928F63 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2897E28B84DB44FF9B131247 /* build.xcconfig */; };
+		541883CA742CB0C68D7CC9E8 /* Pods_photogallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8321D1FEAB58D6920AC80B11 /* Pods_photogallery.framework */; };
 		5DA520EDC459497EA3B3CD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC1551D611444AD9AC87BC7 /* LaunchScreen.storyboard */; };
+		6FC9DB20A94445AEA5BB38E1 /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085AAC780AD44F1499B17E84 /* TNSListView.framework */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		987F4E06D2304281B675DE9C /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BD58F0650D4AE98800EF2B /* TNSWidgets.framework */; };
 		AACF6AD1D00A45AE83697A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB50B35FF89B4554B34933B0 /* Assets.xcassets */; };
+		C269C1BBD49F4A9CAD2F5F1D /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57043520BA247A892522355 /* TNSCore.framework */; };
+		CD22AF667E2944B3971C2145 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 085AAC780AD44F1499B17E84 /* TNSListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		6FC9DB20A94445AEA5BB38E1 /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085AAC780AD44F1499B17E84 /* TNSListView.framework */; };
-		CD22AF667E2944B3971C2145 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 085AAC780AD44F1499B17E84 /* TNSListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C269C1BBD49F4A9CAD2F5F1D /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57043520BA247A892522355 /* TNSCore.framework */; };
-		0843CC0D61F2445797E7F60C /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C57043520BA247A892522355 /* TNSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,22 +39,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		085AAC780AD44F1499B17E84 /* TNSListView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
 		2897E28B84DB44FF9B131247 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = photogallery/Resources/build.xcconfig; sourceTree = "<group>"; };
 		36BD58F0650D4AE98800EF2B /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		8321D1FEAB58D6920AC80B11 /* Pods_photogallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photogallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B832E18CA111C00AB12DE /* photogallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photogallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* photogallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "photogallery-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* photogallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "photogallery-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* photogallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photogallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC1551D611444AD9AC87BC7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = photogallery/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C57043520BA247A892522355 /* TNSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
 		FB50B35FF89B4554B34933B0 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = photogallery/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		085AAC780AD44F1499B17E84 /* TNSListView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
-		C57043520BA247A892522355 /* TNSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +66,20 @@
 				987F4E06D2304281B675DE9C /* TNSWidgets.framework in Frameworks */,
 				6FC9DB20A94445AEA5BB38E1 /* TNSListView.framework in Frameworks */,
 				C269C1BBD49F4A9CAD2F5F1D /* TNSCore.framework in Frameworks */,
+				541883CA742CB0C68D7CC9E8 /* Pods_photogallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47DAD49FDFF8E79EA68AE0D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +87,7 @@
 				858B833718CA111C00AB12DE /* photogallery */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
+				47DAD49FDFF8E79EA68AE0D6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +106,7 @@
 				36BD58F0650D4AE98800EF2B /* TNSWidgets.framework */,
 				085AAC780AD44F1499B17E84 /* TNSListView.framework */,
 				C57043520BA247A892522355 /* TNSCore.framework */,
+				8321D1FEAB58D6920AC80B11 /* Pods_photogallery.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "photogallery" */;
 			buildPhases = (
+				CF9301EB80F4CB9F0D8DD9EC /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -145,6 +159,7 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				8E841117A54A463DAA824774 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +219,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8E841117A54A463DAA824774 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-photogallery/Pods-photogallery-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/NYTPhotoViewer/NYTPhotoViewer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYTPhotoViewer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photogallery/Pods-photogallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +282,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+		CF9301EB80F4CB9F0D8DD9EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photogallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

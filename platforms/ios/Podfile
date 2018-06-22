@@ -1,0 +1,8 @@
+use_frameworks!
+
+target "photogallery" do
+# Begin Podfile - /www/photo-gallery/node_modules/nativescript-photoviewer/platforms/ios/Podfile 
+ pod 'NYTPhotoViewer', '~> 2.0.0' 
+ # End Podfile 
+
+end

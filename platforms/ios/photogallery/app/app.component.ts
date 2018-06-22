@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
  
 import * as NativeScriptUIListViewModule from "nativescript-ui-listview/angular";
 import * as camera from 'nativescript-camera';
+// import { PhotoViewer } from "nativescript-photoviewer";
 
 import { ImageManagerService } from "./shared/image-manager/image-manager.service";
 
@@ -15,9 +16,7 @@ import { ImageManagerService } from "./shared/image-manager/image-manager.servic
 export class AppComponent implements OnInit {
 	pictures: Array<Object> = [];
 
-	constructor(private imageManagerService: ImageManagerService) {
-
-	}
+	constructor(private imageManagerService: ImageManagerService) {}
 
 	ngOnInit() {
 		this.populatePicturesArray();

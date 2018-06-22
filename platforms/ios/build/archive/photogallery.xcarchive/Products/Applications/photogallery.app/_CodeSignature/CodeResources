@@ -62,7 +62,59 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rhf92vHpRzYrslUS6IWBwCLHKmY=
+		m/zevt6dlmrf9fmBdO5Kw7Og66U=
+		</data>
+		<key>Frameworks/FLAnimatedImage.framework/FLAnimatedImage</key>
+		<data>
+		ig7szne4perqNyAKw9Zj8v8EY+c=
+		</data>
+		<key>Frameworks/FLAnimatedImage.framework/Info.plist</key>
+		<data>
+		V0gK9LFSIycPANwyG54jResgkzs=
+		</data>
+		<key>Frameworks/FLAnimatedImage.framework/_CodeSignature/CodeResources</key>
+		<data>
+		gWxldV4ph+KQwHt+c0ccqwxM6Nk=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/Info.plist</key>
+		<data>
+		5D0A3mJ1M1WyPV03sbtU09BRM08=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer</key>
+		<data>
+		JkMO2qRspaFjhnjtkxmnHt0ZBRo=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/Info.plist</key>
+		<data>
+		oeHFecQCfwDI/gZmPahi6+1gbNc=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX.png</key>
+		<data>
+		B2MAtg4ZXGY0/hdSwLOe49h30ec=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@2x.png</key>
+		<data>
+		1F/oaC1xhSyas+8Jy4VIvG7E4kM=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@3x.png</key>
+		<data>
+		trGKnQT10wkzcv2cWnbriPZnex4=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape.png</key>
+		<data>
+		kV1bFh3O3vcJh2RhmnxXfH3Xhdk=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@2x.png</key>
+		<data>
+		btQolBFTtnOAcitH8TeQrGn3ttg=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@3x.png</key>
+		<data>
+		fXweJnfMmMf/UofWbVUvGfcAeyU=
+		</data>
+		<key>Frameworks/NYTPhotoViewer.framework/_CodeSignature/CodeResources</key>
+		<data>
+		CrAogW+mjVuZQMBHk6zHZU3jEo4=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -70,7 +122,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		aPyH1nquU4WSkhmNXscp5rVSDks=
+		pgbA//MohgbjwT7BCHCu6VQb6rE=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -82,7 +134,7 @@
 		</data>
 		<key>Frameworks/TNSCore.framework/TNSCore</key>
 		<data>
-		BburcjxDcT2g0zy8W6BojnUtg4g=
+		JvvtPq+9e/BsenXN+J3lxv3l1qU=
 		</data>
 		<key>Frameworks/TNSCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -94,7 +146,7 @@
 		</data>
 		<key>Frameworks/TNSListView.framework/TNSListView</key>
 		<data>
-		2wLqDN4FYqhOixTXUBybsT7fBnU=
+		WeKDDA1mCdE6zgjxXyf65UKs3gE=
 		</data>
 		<key>Frameworks/TNSListView.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -106,7 +158,7 @@
 		</data>
 		<key>Frameworks/TNSWidgets.framework/TNSWidgets</key>
 		<data>
-		rPxLTrR1FJcPGUIEnn9Y/5wZqIY=
+		xL8byFR8ZW9bEZRPHQf94lY33xk=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -190,7 +242,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		U1pEe6HRMuBuH+fxTbtiAVjkr5U=
+		aVcfrKQTfqypIxHMscwDdwxeCOs=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -198,7 +250,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		ZwtjEehiYie362kbz35mnI3AVZ4=
+		TRIWScKD6cw4KZdU/KIRE95E8FA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -218,11 +270,11 @@
 		</data>
 		<key>app/app.component.js</key>
 		<data>
-		llvKavep6VYGNfiBFwRAfR9h1vA=
+		n4NX87Au0HaWTQ9NA982bo2JCMQ=
 		</data>
 		<key>app/app.component.ts</key>
 		<data>
-		Rqsx+9oYNv32WYoCgmSGFw4z5ts=
+		OwPQIfWDtSLouiS2hgpyV5un6Mc=
 		</data>
 		<key>app/app.css</key>
 		<data>
@@ -230,7 +282,7 @@
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		qxFcF72ctZtrTfCVF5TZA1/DOlE=
+		Jpr0KFpdjoDHq+X3FXqnz4fs1FE=
 		</data>
 		<key>app/app.module.ngfactory.d.ts</key>
 		<data>
@@ -238,7 +290,7 @@
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		lgAYfVY771qNLzXpu5vEzhu7UUc=
+		L6aPmZEr4nivAdOuCVfLjBUq70U=
 		</data>
 		<key>app/images/apple.jpg</key>
 		<data>
@@ -266,43 +318,27 @@
 		</data>
 		<key>app/main/main.component.html</key>
 		<data>
-		EMHl/VvzthNWhjcvbMFqQXTZGPk=
+		KlK7QSbRa74mYKW3vxeFdttdC4c=
 		</data>
 		<key>app/package.json</key>
 		<data>
 		/7w0Ns6nEwfH4Vfve5AYqowfWYI=
 		</data>
-		<key>app/shared/file-manager/file-manager.service.js</key>
+		<key>app/shared/image-manager/image-file.model.js</key>
 		<data>
-		DJzUjs29+fZwCJrbCLZIse0PDV0=
+		4e+Ha9YoRgcmA6dfKcjJyrh9qoQ=
 		</data>
-		<key>app/shared/file-manager/file-manager.service.ts</key>
+		<key>app/shared/image-manager/image-file.model.ts</key>
 		<data>
-		cbsp8bgXEGN13WudsEc5NFo2swg=
+		jLMrtwfAtrpWH8Hh56qlzJKZV/Y=
 		</data>
-		<key>app/shared/file-manager/file.model.js</key>
+		<key>app/shared/image-manager/image-manager.service.js</key>
 		<data>
-		uOVsPClXPtX31XiKHw+zC77JoU0=
+		4pBsNKc6VUbbAvMpusYG97o8oYw=
 		</data>
-		<key>app/shared/file-manager/file.model.ts</key>
+		<key>app/shared/image-manager/image-manager.service.ts</key>
 		<data>
-		5j0KtvMerVCVd7CYk/1x8/Ug0ws=
-		</data>
-		<key>app/shared/photo/photo.model.js</key>
-		<data>
-		GGeE8Bk6DgwjkaUSw/9mb3ykYZM=
-		</data>
-		<key>app/shared/photo/photo.model.ts</key>
-		<data>
-		uKRThZyqyYdDOkcDYKQ9uwfv2/s=
-		</data>
-		<key>app/shared/photo/photo.service.js</key>
-		<data>
-		a/TwGselu1PaGWqB8XcdJWjLnKs=
-		</data>
-		<key>app/shared/photo/photo.service.ts</key>
-		<data>
-		kqa2p/IKy6e8jqu1UNDrB/w8q3s=
+		ICBPN/ma9BJcRUG5D30r5eDSeEo=
 		</data>
 		<key>app/tns_modules/@angular/animations/README.md</key>
 		<data>
@@ -16719,6 +16755,22 @@
 		<key>app/tns_modules/nativescript-permissions/permissions.js</key>
 		<data>
 		jJ6pD624dsp+RevcpPa3Ar6JLHI=
+		</data>
+		<key>app/tns_modules/nativescript-photoviewer/LICENSE</key>
+		<data>
+		Up3jcZp8oN7OXeJWDUYJoc6gm0E=
+		</data>
+		<key>app/tns_modules/nativescript-photoviewer/README.md</key>
+		<data>
+		7Zj9HPj7BqI76MLaN+fFn4hGh8I=
+		</data>
+		<key>app/tns_modules/nativescript-photoviewer/index.js</key>
+		<data>
+		9F/ICCfmQBV4AYxw1F7NrTDiebo=
+		</data>
+		<key>app/tns_modules/nativescript-photoviewer/package.json</key>
+		<data>
+		8sEC7hotNmmfnO3S7wjlTB6QgUw=
 		</data>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
 		<data>
@@ -33918,11 +33970,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rhf92vHpRzYrslUS6IWBwCLHKmY=
+			m/zevt6dlmrf9fmBdO5Kw7Og66U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lytd3sAxnStlbJZnZIDu0gI4x74NZ/qUL+ShfNvmyjk=
+			pFghbvtLegk3Wn3fB/+rax4T7SNK4xY5XzkX16Qfx/w=
+			</data>
+		</dict>
+		<key>Frameworks/FLAnimatedImage.framework/FLAnimatedImage</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ig7szne4perqNyAKw9Zj8v8EY+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			DMdxTaGli7e4LC+dHjI7rXBmETphJZ5OQN1uFqckgNU=
+			</data>
+		</dict>
+		<key>Frameworks/FLAnimatedImage.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V0gK9LFSIycPANwyG54jResgkzs=
+			</data>
+			<key>hash2</key>
+			<data>
+			rsF81AywxfGchS33winlI4PrlX/VuAt5awDrgvhfPjY=
+			</data>
+		</dict>
+		<key>Frameworks/FLAnimatedImage.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gWxldV4ph+KQwHt+c0ccqwxM6Nk=
+			</data>
+			<key>hash2</key>
+			<data>
+			FCuQOCVCj9Gw5XPi2EKZk4k72+ysjgleO1ut5vk88Dg=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5D0A3mJ1M1WyPV03sbtU09BRM08=
+			</data>
+			<key>hash2</key>
+			<data>
+			ks5Cw85JfpBggukfGtUNKYABIerCO2W3+FansrUAMFQ=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JkMO2qRspaFjhnjtkxmnHt0ZBRo=
+			</data>
+			<key>hash2</key>
+			<data>
+			uFK8+11frvfbSYTjRsCLHsQFhdLO52vSdiJ2vqFDy2s=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oeHFecQCfwDI/gZmPahi6+1gbNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			CZTMMDiwY9gXa9VH6AnGBGFZ39EzQzBzAk+AlnaxP2k=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B2MAtg4ZXGY0/hdSwLOe49h30ec=
+			</data>
+			<key>hash2</key>
+			<data>
+			/UiIFVk98AAmBgd7F+vjH5GmUlp3RGN/D/uJhakL65A=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1F/oaC1xhSyas+8Jy4VIvG7E4kM=
+			</data>
+			<key>hash2</key>
+			<data>
+			2lqgkEp93BgBW/23XfPxJ/TTuVaZ9gdN0NY+Ks7aJyY=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			trGKnQT10wkzcv2cWnbriPZnex4=
+			</data>
+			<key>hash2</key>
+			<data>
+			8iKsPwD+k/66uTWYNFiPxifNoPdm3NSreAayDMmyIxE=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kV1bFh3O3vcJh2RhmnxXfH3Xhdk=
+			</data>
+			<key>hash2</key>
+			<data>
+			eP0cRCB40Js2ursCeaGc8BCt6ncYhTJ38p75oI+zZ44=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			btQolBFTtnOAcitH8TeQrGn3ttg=
+			</data>
+			<key>hash2</key>
+			<data>
+			z16hOShZ6Hf9WTPNelT7YABJ6ovAckp5Ee25RelsmO4=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fXweJnfMmMf/UofWbVUvGfcAeyU=
+			</data>
+			<key>hash2</key>
+			<data>
+			PrnuGXeFrhUcNQzej4eFZouty1I3jSgsnT7wunosi5I=
+			</data>
+		</dict>
+		<key>Frameworks/NYTPhotoViewer.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CrAogW+mjVuZQMBHk6zHZU3jEo4=
+			</data>
+			<key>hash2</key>
+			<data>
+			m+EkRKbYmFq3kkKwfLrYnwGZB8jIuz0gkni8uQwYOKc=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -33940,11 +34135,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aPyH1nquU4WSkhmNXscp5rVSDks=
+			pgbA//MohgbjwT7BCHCu6VQb6rE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Umf0t6DpIyJzZSZc65Mqwjz/ZtyIwahZljhTy/ThB7E=
+			iMWhpe42996BMqaEdk0lQFoON51bibaziW0XdTPwLqs=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -33973,11 +34168,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BburcjxDcT2g0zy8W6BojnUtg4g=
+			JvvtPq+9e/BsenXN+J3lxv3l1qU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4NKxzOJecDBMETlohKmDaPs8Y6KZnKKKY8u8u7FogoY=
+			dM4C1+pfyiV5U3aOj4pdFitTYrrVCKB4gVppv56EXok=
 			</data>
 		</dict>
 		<key>Frameworks/TNSCore.framework/_CodeSignature/CodeResources</key>
@@ -34006,11 +34201,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2wLqDN4FYqhOixTXUBybsT7fBnU=
+			WeKDDA1mCdE6zgjxXyf65UKs3gE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PGHh7FdARE7uRW7+dGY0RNygLa2GVkv8j88NoG9JqL8=
+			kn34/0g/GEV3L+MyFrheW1iigZ1VjYWzSqRATPlNE9w=
 			</data>
 		</dict>
 		<key>Frameworks/TNSListView.framework/_CodeSignature/CodeResources</key>
@@ -34039,11 +34234,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rPxLTrR1FJcPGUIEnn9Y/5wZqIY=
+			xL8byFR8ZW9bEZRPHQf94lY33xk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aouPpVaWEW8/e6THu4UALV6zj3YZAzZAAKqzY1leR/0=
+			SSYvJI6Zwh63pS2PAsQ0p9tMXzrVKWOtcrQzfH8+8QY=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
@@ -34259,11 +34454,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U1pEe6HRMuBuH+fxTbtiAVjkr5U=
+			aVcfrKQTfqypIxHMscwDdwxeCOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			jOSglDHh+4xvXL4REg9Dxcenpa0VZjd7r1nAZQkz1Pc=
+			/1ipQUlFynUJ45Y1754Of0Tp4NeObEdwe1L5vZRDFU8=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -34281,11 +34476,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZwtjEehiYie362kbz35mnI3AVZ4=
+			TRIWScKD6cw4KZdU/KIRE95E8FA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/WOCL5LMZfVVBQVjvYzqgSzzu9D/RILuGUrzqat5Hp4=
+			/aLy+y9ug8jLeoqTgc5IY23Fm87ARa3OkpTtFNHNQE0=
 			</data>
 		</dict>
 		<key>app/CODE_OF_CONDUCT.md</key>
@@ -34325,22 +34520,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			llvKavep6VYGNfiBFwRAfR9h1vA=
+			n4NX87Au0HaWTQ9NA982bo2JCMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			k5JgPCpUUcLbRSDyvJyvl5ceEgEOCHxBgIEXJQoK5RM=
+			16zdpKVNxeUh9yQzHOJL75DnkUxjOwKQuGBDKiOAM3o=
 			</data>
 		</dict>
 		<key>app/app.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Rqsx+9oYNv32WYoCgmSGFw4z5ts=
+			OwPQIfWDtSLouiS2hgpyV5un6Mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmaJ/saaJo4JcFbiOgpw8AiEqonmMFmanmzL59cwMhQ=
+			afeSFfNzr+/g1eyYQv7R752F4iOYOZLI9XDsXz9MZDo=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -34358,11 +34553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qxFcF72ctZtrTfCVF5TZA1/DOlE=
+			Jpr0KFpdjoDHq+X3FXqnz4fs1FE=
 			</data>
 			<key>hash2</key>
 			<data>
-			54h4wDxpmmiGX4fz6ISRsEGEfZMJMbTw2SL1ElR1qgg=
+			wFtWlSVPYFFtOaz6QQeHtr7Jyw8+Kc/oesxsm7Wtu5I=
 			</data>
 		</dict>
 		<key>app/app.module.ngfactory.d.ts</key>
@@ -34380,11 +34575,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lgAYfVY771qNLzXpu5vEzhu7UUc=
+			L6aPmZEr4nivAdOuCVfLjBUq70U=
 			</data>
 			<key>hash2</key>
 			<data>
-			DHAGd7LpXie6CJjm20pIF6kjNXfiAhxL8B29xDtS2TI=
+			ukQwVWzB/XYFxXcKRlpaMiaJOhDDFuS5eC7PmQD6QgY=
 			</data>
 		</dict>
 		<key>app/images/apple.jpg</key>
@@ -34457,11 +34652,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EMHl/VvzthNWhjcvbMFqQXTZGPk=
+			KlK7QSbRa74mYKW3vxeFdttdC4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/u1qPUUalQaAgYSrYSZ0Bpj0v2kU3j7AtTnHgyj5JY=
+			jnaami0mOU11kGk/oWFgW+EKJVg3sEq7/zq0AtrG1qQ=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -34475,92 +34670,48 @@
 			fgA56XbFxmodBupw0bL62QECNL91V2wf/d0A97cZVIM=
 			</data>
 		</dict>
-		<key>app/shared/file-manager/file-manager.service.js</key>
+		<key>app/shared/image-manager/image-file.model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DJzUjs29+fZwCJrbCLZIse0PDV0=
+			4e+Ha9YoRgcmA6dfKcjJyrh9qoQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			GWlH4FGzLuD2XA54RTrWYVGoCt2V7RqmDiEby7yzRMk=
+			di26PvPwQYnsIxF3N1+Rt6PDydtzlzxRXy86DHP0hHU=
 			</data>
 		</dict>
-		<key>app/shared/file-manager/file-manager.service.ts</key>
+		<key>app/shared/image-manager/image-file.model.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cbsp8bgXEGN13WudsEc5NFo2swg=
+			jLMrtwfAtrpWH8Hh56qlzJKZV/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			WwOCM5TnsZKhiRvCv20WmWKhI7bb+GzgURGaR9HYe2o=
+			qmpldaI6/F5g3goO8DmXmN9kJ0dX+OfMGGYXMjmQlok=
 			</data>
 		</dict>
-		<key>app/shared/file-manager/file.model.js</key>
+		<key>app/shared/image-manager/image-manager.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uOVsPClXPtX31XiKHw+zC77JoU0=
+			4pBsNKc6VUbbAvMpusYG97o8oYw=
 			</data>
 			<key>hash2</key>
 			<data>
-			XsIMVDAbtAUkmT3nmCWTC1DtH3VqTy7c02TOqT+jbL0=
+			X2eAwztavzV+aL+5A0Nq86ptHUR1GjTeLf7TP3zMZfw=
 			</data>
 		</dict>
-		<key>app/shared/file-manager/file.model.ts</key>
+		<key>app/shared/image-manager/image-manager.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5j0KtvMerVCVd7CYk/1x8/Ug0ws=
+			ICBPN/ma9BJcRUG5D30r5eDSeEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			BP/jZbiqihnwy1KTj6DBopDpXN8kAayPXwA8vODEJ/o=
-			</data>
-		</dict>
-		<key>app/shared/photo/photo.model.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GGeE8Bk6DgwjkaUSw/9mb3ykYZM=
-			</data>
-			<key>hash2</key>
-			<data>
-			9XSc/mTwjAxwg81tPAL/SXakGANqcwUSkKpbbBJvuKo=
-			</data>
-		</dict>
-		<key>app/shared/photo/photo.model.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uKRThZyqyYdDOkcDYKQ9uwfv2/s=
-			</data>
-			<key>hash2</key>
-			<data>
-			yARQv84hbZ2X+PWaFx+GAmiXKqrgMt78A7FtcYO1Emw=
-			</data>
-		</dict>
-		<key>app/shared/photo/photo.service.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a/TwGselu1PaGWqB8XcdJWjLnKs=
-			</data>
-			<key>hash2</key>
-			<data>
-			f63NqtcU9AaUJGEWtxAi2Qif7YLnGlpuQyZt/Ce88+Y=
-			</data>
-		</dict>
-		<key>app/shared/photo/photo.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kqa2p/IKy6e8jqu1UNDrB/w8q3s=
-			</data>
-			<key>hash2</key>
-			<data>
-			Scx+cKtReyNb9pWBR6dbqHclU3taN242qG5FBJ2gATo=
+			sUpGf2CQLJf7WVtKvEJLN8LYwSheJ6nZiaZYBKc0Li0=
 			</data>
 		</dict>
 		<key>app/tns_modules/@angular/animations/README.md</key>
@@ -79705,6 +79856,50 @@
 			<key>hash2</key>
 			<data>
 			91hyhH2G5KOTZmtW12abkLLuIRhAUp0nV3AVqvA6M60=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-photoviewer/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Up3jcZp8oN7OXeJWDUYJoc6gm0E=
+			</data>
+			<key>hash2</key>
+			<data>
+			uIUXMoZgfFmtdu46T8KFgAwPZGCOKTXrAs5g/86r83M=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-photoviewer/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7Zj9HPj7BqI76MLaN+fFn4hGh8I=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z38i7mScvQ4HAhXnNsCKQt9R/Qamx7Pir8Xd5H5pxbs=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-photoviewer/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9F/ICCfmQBV4AYxw1F7NrTDiebo=
+			</data>
+			<key>hash2</key>
+			<data>
+			1cmnzLdonWEp3uD60utPu3fm0tb4MDy/ec3/WIVb4u4=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-photoviewer/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8sEC7hotNmmfnO3S7wjlTB6QgUw=
+			</data>
+			<key>hash2</key>
+			<data>
+			IPr31IvP6NVz2YhdWsdsvodPsGr2SsKCrNaqBG2kmFo=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>

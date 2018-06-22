@@ -1,59 +1,49 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
  
-import { NativeScriptUIListViewModule } from "nativescript-ui-listview/angular";
-
-import * as ImageSource from 'image-source';
-import * as FileSystem from 'file-system';
+import * as NativeScriptUIListViewModule from 'nativescript-ui-listview/angular';
 import * as camera from 'nativescript-camera';
+import * as PhotoViewer from 'nativescript-photoviewer';
+
+import { ImageManagerService } from './shared/image-manager/image-manager.service';
+
  
 @Component({
 	selector: "pg-main",
 	styleUrls: ["app.css"],
+	providers: [ImageManagerService, PhotoViewer],
 	templateUrl: "main/main.component.html"
 })
-export class AppComponent {
-	groceryList = [];
-	picturePlaceholderPath = "~/images/placeholder-img.jpg";
+export class AppComponent implements OnInit {
+	pictures: Array<Object> = [];
+
+	constructor(private imageManagerService: ImageManagerService, private imageViewer: PhotoViewer) {
+
+	}
 
 	ngOnInit() {
-		this.loadFromFile();
+		this.populatePicturesArray();
 	}
 
 	takePicture(): void {
 		camera.takePicture({ 
 			width: 400, height: 100, keepAspectRatio: true, saveToGallery: true
 		})
-		.then((picture) => {
-			this.display(picture);
-			this.saveToFile(picture);
-		});
-	}
-
-	display(picture) {
-		this.picturePlaceholderPath = picture;
-	}
-
-	saveToFile(picture) {
-		ImageSource.fromAsset(picture)
-			.then((img) => {
-				const folderDest = FileSystem.knownFolders.documents();
-				const pathDest = FileSystem.path.join(folderDest.path, "test.png");
-				const saved = img.saveToFile(pathDest, "png");
-				if (saved) {
-					console.info("Image saved successfully!");
-				}
+			.then((picture) => {
+				this.saveToFile(picture);
 			});
 	}
 
-	loadFromFile() {
-		const folderDest = FileSystem.knownFolders.documents();
-		const pathDest = FileSystem.path.join(folderDest.path, "test.png");
-		console.log('path: ', folderDest.path);
-		folderDest.getEntities()
-			.then((entities)=> {
-				entities.forEach((entity) => {
-					this.picturePlaceholderPath = entity.path;
-				});
+	saveToFile(picture) {
+		this.imageManagerService.saveToFile(picture)
+			.then(() => {
+				this.populatePicturesArray();
+			});
+	}
+
+	populatePicturesArray() {
+		this.imageManagerService.getAllImages()
+			.then((images) => {
+				this.pictures = images;
 			});
 	}
 }

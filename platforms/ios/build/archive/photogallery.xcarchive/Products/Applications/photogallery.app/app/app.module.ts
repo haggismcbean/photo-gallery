@@ -1,12 +1,15 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
+
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NativeScriptUIListViewModule } from "nativescript-ui-listview/angular";
+import { PhotoViewer } from "nativescript-photoviewer";
 
 import { AppComponent } from "./app.component";
 
 @NgModule({
   declarations: [AppComponent],
   bootstrap: [AppComponent],
-  imports: [NativeScriptModule, NativeScriptUIListViewModule],
+  imports: [NativeScriptModule, NativeScriptUIListViewModul, PhotoViewer],
   schemas: [NO_ERRORS_SCHEMA],
 })
 export class AppModule {}
